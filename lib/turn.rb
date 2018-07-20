@@ -6,7 +6,7 @@ def turn (board)
     move(board,input_index)
 else turn(board)
 end
-  
+  display_board
 end
 
 
