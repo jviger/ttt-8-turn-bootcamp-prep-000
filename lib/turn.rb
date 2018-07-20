@@ -1,7 +1,10 @@
-def turn 
+def turn (board) 
   puts "Please enter 1-9:"
   input = gets
-  input_to_index(input)
+  input_index = input_to_index(input)
+  if(valid_move?(board,input_index))
+else
+  
 end
 
 
