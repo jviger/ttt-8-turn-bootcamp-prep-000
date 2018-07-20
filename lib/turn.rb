@@ -3,7 +3,8 @@ def turn (board)
   input = gets
   input_index = input_to_index(input)
   if(valid_move?(board,input_index))
-else
+    move(board,input_index)
+else turn(board)
   
 end
 
